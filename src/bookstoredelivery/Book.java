@@ -41,5 +41,21 @@ public class Book {
 	public void setPrice(double price) {
 		this.price = price;
 	}
+
+	public String getId() {
+		return id;
+	}
+
+	public String getLanguage() {
+		return language;
+	}
+
+	public String getCreator() {
+		return creator;
+	}
+
+	public String getTitle() {
+		return title;
+	}
 	
 }
